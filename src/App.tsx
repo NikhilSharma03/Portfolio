@@ -1,7 +1,8 @@
 import React from "react";
+import Layout from "./pages/Layout/Layout";
 
-function App() {
-  return <div className="App">Hello</div>;
-}
+const App: React.FC = () => {
+  return <Layout />;
+};
 
 export default App;
