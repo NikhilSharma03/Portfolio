@@ -13,3 +13,45 @@ html {
 body {
   font-family: "Nunito Sans", sans-serif;
 }
+
+@media screen and (min-width: 1600px) {
+  html {
+    font-size: 70%;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  html {
+    font-size: 60%;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  html {
+    font-size: 60%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  html {
+    font-size: 57.5%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  html {
+    font-size: 55%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  html {
+    font-size: 50%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  html {
+    font-size: 45%;
+  }
+}
