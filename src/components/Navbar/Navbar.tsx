@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import {
   NavbarContainer,
   NavbarStyled,
@@ -7,17 +7,24 @@ import {
   NavlistStyled,
   NLIAnchorStyled,
   NavbarSub,
+  NavbarBarIcon,
 } from "./Navbar.style";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBars } from "@fortawesome/free-solid-svg-icons";
 
-const Button: React.FC = () => {
-  const [navData, setNavData] = useState<{ name: string; href: string }[]>([
+interface Props {
+  toggleSD: () => void;
+}
+
+const Button: React.FC<Props> = ({ toggleSD }) => {
+  const navData = [
     { name: "Home", href: "#home" },
     { name: "Skills", href: "#skills" },
     { name: "Experience", href: "#experience" },
     { name: "Education", href: "#education" },
     { name: "Projects", href: "#projects" },
     { name: "Connect", href: "#connect" },
-  ]);
+  ];
 
   return (
     <NavbarContainer>
@@ -25,6 +32,9 @@ const Button: React.FC = () => {
         {"<NikhilSh"}
         <NavbarSub>{"arma />"}</NavbarSub>
       </NavbarTitle>
+      <NavbarBarIcon onClick={toggleSD}>
+        <FontAwesomeIcon icon={faBars} color="#fff" />
+      </NavbarBarIcon>
       <NavbarStyled>
         <NavlistStyled>
           {navData.map((item) => (

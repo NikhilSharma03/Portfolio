@@ -29,7 +29,24 @@ export const NavbarSub = styled.label`
   color: #fff;
 `;
 
-export const NavbarStyled = styled.nav``;
+export const NavbarBarIcon = styled.div`
+  display: none;
+  cursor: pointer;
+  svg {
+    width: 2rem !important;
+    height: 2rem;
+  }
+
+  @media (max-width: 850px) {
+    display: inline-block;
+  }
+`;
+
+export const NavbarStyled = styled.nav`
+  @media (max-width: 850px) {
+    display: none;
+  }
+`;
 
 export const NavlistStyled = styled.ul`
   display: flex;
