@@ -11,9 +11,10 @@ import {
 
 interface Props {
   active: boolean;
+  toggleSD: () => void;
 }
 
-const SideDrawer: React.FC<Props> = ({ active }) => {
+const SideDrawer: React.FC<Props> = ({ active, toggleSD }) => {
   const navData = [
     { name: "Home", href: "#home" },
     { name: "Skills", href: "#skills" },
@@ -24,7 +25,7 @@ const SideDrawer: React.FC<Props> = ({ active }) => {
   ];
 
   return (
-    <SDContainer active={active}>
+    <SDContainer active={active} onClick={toggleSD}>
       <SDLogo>
         <SDLogoText>
           {"<NikhilSh"}

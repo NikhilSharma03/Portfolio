@@ -8,7 +8,10 @@ const Layout: React.FC = () => {
 
   return (
     <div>
-      <SideDrawer active={isSDActive} />
+      <SideDrawer
+        active={isSDActive}
+        toggleSD={() => setIsSDActive((prev) => !prev)}
+      />
       <Navbar toggleSD={() => setIsSDActive((prev) => !prev)} />
       <main>
         <Hero />
