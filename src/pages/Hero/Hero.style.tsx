@@ -62,7 +62,7 @@ export const HeroContentPara = styled.p`
 `;
 
 export const HeroButton = styled.a`
-  padding: 1.75rem 8.5rem;
+  padding: 1rem 5rem;
   font-size: 1.5rem;
   font-weight: bold;
   width: fit-content;
@@ -78,6 +78,7 @@ export const HeroButton = styled.a`
 
   @media (max-width: 1000px) {
     margin-top: 4rem;
+    padding: 1.75rem 8.5rem;
   }
 `;
 
