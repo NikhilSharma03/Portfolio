@@ -18,7 +18,7 @@ interface Props {
 
 const Button: React.FC<Props> = ({ toggleSD }) => {
   const navData = [
-    { name: "Home", href: "#home" },
+    { name: "Home", href: "#hero" },
     { name: "Skills", href: "#skills" },
     { name: "Experience", href: "#experience" },
     { name: "Education", href: "#education" },
@@ -39,7 +39,7 @@ const Button: React.FC<Props> = ({ toggleSD }) => {
         <NavlistStyled>
           {navData.map((item) => (
             <NavlistItemStyled key={item.name}>
-              <NLIAnchorStyled to={item.href}>{item.name}</NLIAnchorStyled>
+              <NLIAnchorStyled href={item.href}>{item.name}</NLIAnchorStyled>
             </NavlistItemStyled>
           ))}
         </NavlistStyled>

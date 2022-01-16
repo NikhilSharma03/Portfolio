@@ -55,7 +55,7 @@ export const NavlistStyled = styled.ul`
 
 export const NavlistItemStyled = styled.li``;
 
-export const NLIAnchorStyled = styled(Link)`
+export const NLIAnchorStyled = styled.a`
   padding: 1rem;
   text-decoration: none;
   font-size: 1.5rem;
