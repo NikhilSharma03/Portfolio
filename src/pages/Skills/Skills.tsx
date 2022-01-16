@@ -1,7 +1,16 @@
 import React from "react";
 import Container from "../../components/Container/Container";
-import { SkillMain, TechContainer } from "./Skills.style";
+import {
+  SkillMain,
+  TechContainer,
+  SkillHead,
+  TechElementContainer,
+  TechElementTitle,
+  TechElementImgContainer,
+  TechElementImg,
+} from "./Skills.style";
 import * as ImgSrc from "./../../shared/ImgSrc";
+import SectionHead from "../../components/SectionHead/SectionHead";
 
 const Skills: React.FC = () => {
   let technology = [
@@ -14,7 +23,6 @@ const Skills: React.FC = () => {
     { name: "Redux", icon: ImgSrc.redux },
     { name: "NodeJS", icon: ImgSrc.nodejs },
     { name: "ExpressJS", icon: ImgSrc.expressjs },
-    { name: "Gin", icon: ImgSrc.gin },
     { name: "MongoDB", icon: ImgSrc.mongodb },
     { name: "MySQL", icon: ImgSrc.mysql },
     { name: "Redis", icon: ImgSrc.redis },
@@ -30,7 +38,23 @@ const Skills: React.FC = () => {
 
   return (
     <Container id="skills">
-      <SkillMain></SkillMain>
+      <SkillMain>
+        <SkillHead>
+          <SectionHead>Technical Skills</SectionHead>
+        </SkillHead>
+        <TechContainer>
+          {technology.map((item) => {
+            return (
+              <TechElementContainer>
+                <TechElementTitle>{item.name}</TechElementTitle>
+                <TechElementImgContainer>
+                  <TechElementImg alt={item.name} src={item.icon} />
+                </TechElementImgContainer>
+              </TechElementContainer>
+            );
+          })}
+        </TechContainer>
+      </SkillMain>
     </Container>
   );
 };

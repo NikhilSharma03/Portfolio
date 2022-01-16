@@ -2,7 +2,6 @@ import HeroBanner from "./../assets/hero_logo.png";
 import cicd from "./../assets/technology/cicd.png";
 import docker from "./../assets/technology/docker.png";
 import expressjs from "./../assets/technology/expressjs.png";
-import gin from "./../assets/technology/gin.png";
 import git from "./../assets/technology/git.png";
 import github from "./../assets/technology/github.png";
 import golang from "./../assets/technology/golang.png";
@@ -26,7 +25,6 @@ export {
   cicd,
   docker,
   expressjs,
-  gin,
   git,
   github,
   golang,
