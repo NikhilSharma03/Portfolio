@@ -3,6 +3,7 @@ import Navbar from "./../../components/Navbar/Navbar";
 import Hero from "./../Hero/Hero";
 import SideDrawer from "../../components/SideDrawer/SideDrawer";
 import Skills from "../Skills/Skills";
+import Experience from "../Experience/Experience";
 
 const Layout: React.FC = () => {
   const [isSDActive, setIsSDActive] = useState<boolean>(false);
@@ -17,6 +18,7 @@ const Layout: React.FC = () => {
       <main>
         <Hero />
         <Skills />
+        <Experience />
       </main>
     </div>
   );
