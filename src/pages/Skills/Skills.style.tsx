@@ -35,6 +35,10 @@ export const TechElementContainer = styled.div`
   &:hover {
     background-color: rgba(31, 31, 31);
   }
+
+  @media (max-width: 450px) {
+    width: 100%;
+  }
 `;
 
 export const TechElementTitle = styled.label`
