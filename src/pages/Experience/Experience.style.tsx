@@ -17,6 +17,14 @@ export const ExperienceBoxContainer = styled.div`
 export const ExperienceBox = styled.div`
   padding: 0 8rem;
   margin-bottom: 8rem;
+
+  @media (max-width: 800px) {
+    padding: 0 5rem;
+  }
+
+  @media (max-width: 450px) {
+    padding: 0 4rem;
+  }
 `;
 
 export const ExperienceBoxName = styled.h2`
