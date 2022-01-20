@@ -16,6 +16,16 @@ const SectionHeadComponent = styled.h1`
     letter-spacing: 5px;
     transform: scale(1.02) skewY(-1deg);
   }
+
+  @media (max-width: 775px) {
+    font-size: 3.5rem;
+  }
+
+  @media (max-width: 525px) {
+    font-size: 3rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
 `;
 
 const SectionHead: React.FC = (props) => {
