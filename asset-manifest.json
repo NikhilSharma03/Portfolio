@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.d8e86ad1.css",
-    "main.js": "/Portfolio/static/js/main.849e6bbd.js",
+    "main.js": "/Portfolio/static/js/main.d8572fbe.js",
     "static/js/787.cfd8f164.chunk.js": "/Portfolio/static/js/787.cfd8f164.chunk.js",
-    "static/media/hero_logo.png": "/Portfolio/static/media/hero_logo.48edc07724cb4890731f.png",
-    "static/media/image.jpeg": "/Portfolio/static/media/image.8def0a791726ed1f5fd6.jpeg",
     "static/media/github.png": "/Portfolio/static/media/github.1c95b85d86a7c25b6f3c.png",
     "static/media/kubernetes.png": "/Portfolio/static/media/kubernetes.517c3cb09658e8304798.png",
     "static/media/python.png": "/Portfolio/static/media/python.f0c9d64775aac23759fe.png",
     "static/media/mongodb.png": "/Portfolio/static/media/mongodb.4b0e5bcab11e20ccf635.png",
+    "static/media/hero_logo.png": "/Portfolio/static/media/hero_logo.b4e8973465579e64e5ab.png",
+    "static/media/image.jpeg": "/Portfolio/static/media/image.eba25c77649802a5e176.jpeg",
     "static/media/grpc.png": "/Portfolio/static/media/grpc.324ba7ae7c6c9a3300af.png",
     "static/media/redis.png": "/Portfolio/static/media/redis.14e4d6e83fa449c04f51.png",
     "static/media/docker.png": "/Portfolio/static/media/docker.4f7084f98ba9be4e751c.png",
@@ -23,11 +23,11 @@
     "static/media/nodejs.png": "/Portfolio/static/media/nodejs.7c2c17abcdae04b47634.png",
     "index.html": "/Portfolio/index.html",
     "main.d8e86ad1.css.map": "/Portfolio/static/css/main.d8e86ad1.css.map",
-    "main.849e6bbd.js.map": "/Portfolio/static/js/main.849e6bbd.js.map",
+    "main.d8572fbe.js.map": "/Portfolio/static/js/main.d8572fbe.js.map",
     "787.cfd8f164.chunk.js.map": "/Portfolio/static/js/787.cfd8f164.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d8e86ad1.css",
-    "static/js/main.849e6bbd.js"
+    "static/js/main.d8572fbe.js"
   ]
 }
