@@ -15,7 +15,6 @@ import {
   ProjectCardVisitLink,
   ProjectCardVisitDeploy,
 } from "./Projects.style";
-import * as ImgSrc from "./../../shared/ImgSrc";
 import SectionHead from "../../components/SectionHead/SectionHead";
 
 const projectData = [
