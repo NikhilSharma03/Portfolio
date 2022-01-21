@@ -5,6 +5,7 @@ import SideDrawer from "../../components/SideDrawer/SideDrawer";
 import Skills from "../Skills/Skills";
 import Experience from "../Experience/Experience";
 import About from "../About/About";
+import Projects from "../Projects/Projects";
 
 const Layout: React.FC = () => {
   const [isSDActive, setIsSDActive] = useState<boolean>(false);
@@ -21,6 +22,7 @@ const Layout: React.FC = () => {
         <About />
         <Skills />
         <Experience />
+        <Projects />
       </main>
     </div>
   );
