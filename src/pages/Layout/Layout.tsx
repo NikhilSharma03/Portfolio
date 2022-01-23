@@ -6,12 +6,13 @@ import Skills from "../Skills/Skills";
 import Experience from "../Experience/Experience";
 import About from "../About/About";
 import Projects from "../Projects/Projects";
+import Connect from "../Connect/Connect";
 
 const Layout: React.FC = () => {
   const [isSDActive, setIsSDActive] = useState<boolean>(false);
 
   return (
-    <div>
+    <div className="app">
       <SideDrawer
         active={isSDActive}
         toggleSD={() => setIsSDActive((prev) => !prev)}
@@ -23,6 +24,7 @@ const Layout: React.FC = () => {
         <Skills />
         <Experience />
         <Projects />
+        <Connect />
       </main>
     </div>
   );
