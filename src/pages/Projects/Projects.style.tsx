@@ -16,6 +16,16 @@ export const ProjectContainer = styled.div`
   gap: 1.25rem;
   grid-template-columns: repeat(12, minmax(0, 1fr));
   padding: 0 4rem;
+
+  @media (max-width: 1000px) {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
+  @media (max-width: 525px) {
+    display: flex;
+    flex-direction: column;
+    padding: 0 0;
+  }
 `;
 
 export const ProjectCard = styled.div`
@@ -27,6 +37,14 @@ export const ProjectCard = styled.div`
   height: 25rem;
   display: flex;
   flex-direction: column;
+
+  @media (max-width: 1475px) {
+    grid-column: span 6 / span 6;
+  }
+
+  @media (max-width: 375px) {
+    height: 30rem;
+  }
 `;
 
 export const ProjectCardDetails = styled.div`
@@ -45,6 +63,8 @@ export const ProjectCardVisit = styled.div`
   background-color: rgb(24, 24, 24);
   padding: 2rem;
   flex: 1;
+  display: flex;
+  align-items: center;
 `;
 
 export const ProjectCardDetailsHead = styled.h2`
