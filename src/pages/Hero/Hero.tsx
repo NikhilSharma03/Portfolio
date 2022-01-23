@@ -33,7 +33,12 @@ const Hero: React.FC = () => {
             <FontAwesomeIcon icon={faLaptop} color="#34d399" /> || Open Source
             Enthusiast <FontAwesomeIcon icon={faRocket} color="#34d399" />
           </HeroContentPara>
-          <HeroButton>Resume</HeroButton>
+          <HeroButton
+            href={require("../../assets/resume.pdf")}
+            download="myFile"
+          >
+            Resume
+          </HeroButton>
         </HeroMainLeft>
         <HeroMainRight>
           <HeroImageContainer>

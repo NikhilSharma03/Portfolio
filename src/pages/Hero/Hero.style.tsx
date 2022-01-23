@@ -98,6 +98,7 @@ export const HeroButton = styled.a`
   cursor: pointer;
   color: #fff;
   transition: all 0.2s;
+  text-decoration: none;
 
   &:hover {
     background-color: #34d39996;
