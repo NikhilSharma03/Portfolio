@@ -30,6 +30,21 @@ export const HeroContentHead = styled.h1`
   font-size: 5rem;
   letter-spacing: 1px;
   margin-bottom: 2rem;
+  animation: scrollfadeInAnimation ease 1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  transition: all 0.4s;
+
+  @keyframes scrollfadeInAnimation {
+    0% {
+      transform: translateX(-100px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
 
   @media (max-width: 450px) {
     font-size: 4rem;
@@ -55,6 +70,18 @@ export const HeroContentPara = styled.p`
   line-height: 2;
   letter-spacing: 1px;
   margin-bottom: 2.5rem;
+  animation: fadeInAnimation ease 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+
+  @keyframes fadeInAnimation {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
 
   @media (max-width: 450px) {
     font-size: 2rem;
@@ -79,6 +106,22 @@ export const HeroButton = styled.a`
   @media (max-width: 1000px) {
     margin-top: 4rem;
     padding: 1.75rem 8.5rem;
+  }
+
+  animation: scrollfadeUpAnimation ease 1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  transition: all 0.4s;
+
+  @keyframes scrollfadeUpAnimation {
+    0% {
+      transform: translateY(100px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
   }
 `;
 
