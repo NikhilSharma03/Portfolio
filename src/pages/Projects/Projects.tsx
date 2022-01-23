@@ -74,11 +74,11 @@ const Projects: React.FC = () => {
                 </ProjectCardDetails>
                 <ProjectCardHR />
                 <ProjectCardVisit>
-                  <ProjectCardVisitLink href={item.github}>
+                  <ProjectCardVisitLink target="_blank" href={item.github}>
                     Github
                   </ProjectCardVisitLink>
                   {item.deploy && (
-                    <ProjectCardVisitDeploy href={item.deploy}>
+                    <ProjectCardVisitDeploy target="_blank" href={item.deploy}>
                       Deploy
                     </ProjectCardVisitDeploy>
                   )}

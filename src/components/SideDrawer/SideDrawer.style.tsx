@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import { Link } from "react-router-dom";
 
 interface SDProps {
   active: boolean;
@@ -51,7 +50,7 @@ export const SDNavListStyled = styled.ul`
 
 export const SDNavlistItemStyled = styled.li``;
 
-export const SDNLIAnchorStyled = styled(Link)`
+export const SDNLIAnchorStyled = styled.a`
   padding: 1rem;
   display: block;
   text-decoration: none;

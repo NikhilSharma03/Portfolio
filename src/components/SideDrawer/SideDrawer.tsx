@@ -16,10 +16,10 @@ interface Props {
 
 const SideDrawer: React.FC<Props> = ({ active, toggleSD }) => {
   const navData = [
-    { name: "Home", href: "#home" },
+    { name: "Home", href: "#hero" },
+    { name: "About", href: "#about" },
     { name: "Skills", href: "#skills" },
     { name: "Experience", href: "#experience" },
-    { name: "Education", href: "#education" },
     { name: "Projects", href: "#projects" },
     { name: "Connect", href: "#connect" },
   ];
@@ -35,7 +35,7 @@ const SideDrawer: React.FC<Props> = ({ active, toggleSD }) => {
       <SDNavListStyled>
         {navData.map((item) => (
           <SDNavlistItemStyled key={item.name}>
-            <SDNLIAnchorStyled to={item.href}>{item.name}</SDNLIAnchorStyled>
+            <SDNLIAnchorStyled href={item.href}>{item.name}</SDNLIAnchorStyled>
           </SDNavlistItemStyled>
         ))}
       </SDNavListStyled>
