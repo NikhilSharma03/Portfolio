@@ -35,7 +35,7 @@ const Hero: React.FC = () => {
           </HeroContentPara>
           <HeroButton
             href={require("../../assets/resume.pdf")}
-            download="resume"
+            download="myFile"
           >
             Resume
           </HeroButton>
