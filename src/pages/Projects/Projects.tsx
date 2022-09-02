@@ -22,9 +22,24 @@ const projectData = [
     name: "Devmind",
     description:
       "DevMind 🌟 is a platform for developers 💻 to share their ideas and thoughts with developers all over the world 🚀",
-    technology: ["React", "Redux", "Nodejs", "Express", "MongoDB"],
+    technology: ["React", "Redux", "Nodejs", "Express", "MongoDB", "Docker"],
     github: "https://github.com/NikhilSharma03/DevMind",
     deploy: "https://devmind-app.web.app/",
+  },
+  {
+    name: "Okane",
+    description:
+      "Okane is a CLI 💻 application build with Cobra Go🚀 to help manage your expenses 💵",
+    technology: ["Go", "gRPC", "Protocol Buffers", "Cobra", "Redis", "Docker"],
+    github: "https://github.com/NikhilSharma03/Okane",
+  },
+  {
+    name: "AEIOU",
+    description:
+      "AEIOU 🌟 is a Crowdfunding Platform Powered by Ethereum Blockchain 🚀",
+    technology: ["React", "Redux", "Web3", "Solidity", "Mocha"],
+    github: "https://github.com/NikhilSharma03/AEIOU",
+    deploy: "https://aeiou-pi.vercel.app/",
   },
   {
     name: "Kaiwa",
@@ -34,11 +49,12 @@ const projectData = [
     github: "https://github.com/NikhilSharma03/Kaiwa",
   },
   {
-    name: "Expense Tracker",
+    name: "Noteman",
     description:
-      "ExpenseTracker is an CLI 💻 application build with Cobra Go to help managing your expenses 💵",
-    technology: ["Golang", "Cobra", "gRPC", "Redis"],
-    github: "https://github.com/NikhilSharma03/ExpenseTracker",
+      "Noteman 📓 is an online web 💻 application to store school/rough notes on the web to review them later.",
+    technology: ["React", "Redux", "Firebase"],
+    github: "https://github.com/NikhilSharma03/NoteMan",
+    deploy: "https://notemanapp.web.app/",
   },
   {
     name: "Food Ninja",
@@ -79,7 +95,7 @@ const Projects: React.FC = () => {
                   </ProjectCardVisitLink>
                   {item.deploy && (
                     <ProjectCardVisitDeploy target="_blank" href={item.deploy}>
-                      Deploy
+                      Deployed
                     </ProjectCardVisitDeploy>
                   )}
                 </ProjectCardVisit>
