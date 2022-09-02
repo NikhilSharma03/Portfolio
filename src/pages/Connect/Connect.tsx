@@ -20,7 +20,7 @@ const Connect: React.FC = () => {
           <SectionHead>Connect</SectionHead>
         </ConnectHead>
         <ConnectQuotePara>
-          "Learning, Fixing and Adding Something New Everyday In Experience Box"
+          "Learning, fixing and adding something new everyday in experience box"
         </ConnectQuotePara>
         <ConnectPhrasePara>
           Interested in working together ? we should queue up a chat. I'll buy
