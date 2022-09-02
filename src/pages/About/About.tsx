@@ -30,7 +30,11 @@ const About: React.FC = () => {
               💻 and I love exploring new technologies and use them to build
               cool and innovative projects 🛠️. I am also an Open Source
               Enthusiast ❤️ and have experience of working on a variety of
-              projects.
+              projects. <br />
+              <br /> I enjoy working on projects in a team full of excited
+              people who want to learn and grow like me. In order to keep
+              learning new things, I am always looking for projects and
+              opportunities that will help me learn and upskill better.
             </AboutContainerPara>
             <AboutContainerSocialContainer>
               <AboutContainerSocialBox

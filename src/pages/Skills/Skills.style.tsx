@@ -29,7 +29,7 @@ export const TechElementContainer = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 17rem;
+  width: 20rem;
   margin: 2rem;
 
   &:hover {
