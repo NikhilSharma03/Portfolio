@@ -19,7 +19,7 @@ import rust from "./../assets/technology/rust.png";
 import slack from "./../assets/technology/slack.png";
 import solidity from "./../assets/technology/solidity.png";
 import typescript from "./../assets/technology/typescript.png";
-import profile from "./../assets/image.jpeg";
+import profile from "./../assets/image.png";
 
 export {
   HeroBanner,

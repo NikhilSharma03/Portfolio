@@ -26,9 +26,9 @@ const About: React.FC = () => {
         <AboutContainer>
           <AboutContainerLeft>
             <AboutContainerPara>
-              I'm a undergraduate student from India. I have passion for
-              Development 💻 and I love exploring new technologies and use them
-              to build cool and innovative projects 🛠️. I am also an Open Source
+              I'm a graduate student from India. I have passion for Development
+              💻 and I love exploring new technologies and use them to build
+              cool and innovative projects 🛠️. I am also an Open Source
               Enthusiast ❤️ and have experience of working on a variety of
               projects.
             </AboutContainerPara>

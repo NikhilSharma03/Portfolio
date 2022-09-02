@@ -29,13 +29,13 @@ const Hero: React.FC = () => {
             I am <HeroContentHeadSub> Nikhil</HeroContentHeadSub>
           </HeroContentHead>
           <HeroContentPara>
-            Full Stack Developer{" "}
+            Software Engineer{" "}
             <FontAwesomeIcon icon={faLaptop} color="#34d399" /> || Open Source
             Enthusiast <FontAwesomeIcon icon={faRocket} color="#34d399" />
           </HeroContentPara>
           <HeroButton
             href={require("../../assets/resume.pdf")}
-            download="myFile"
+            download="Nikhil Resume"
           >
             Resume
           </HeroButton>
