@@ -5,5 +5,5 @@
 #### Technologies
 
 - TypeScript
-- React
+- React.js
 - styled-components
