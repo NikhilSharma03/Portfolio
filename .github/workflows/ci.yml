@@ -1,10 +1,13 @@
-name: Node.js CI
+name: CI
 
 on:
   push:
     branches: [main]
   pull_request:
     branches: [main]
+
+permissions:
+  contents: write
 
 jobs:
   build:
@@ -19,17 +22,18 @@ jobs:
       - run: npm ci
       - run: npm run build
   deploy:
+    concurrency: ci-${{ github.ref }}
     runs-on: ubuntu-latest
-    needs: [build]
     steps:
-      - uses: actions/checkout@v2
+      - name: Checkout
+        uses: actions/checkout@v3
 
-      - name: Use Node.js 14.x
-        uses: actions/setup-node@v2
+      - name: Install and Build
+        run: |
+          npm ci
+          npm run build
+
+      - name: Deploy
+        uses: JamesIves/github-pages-deploy-action@v4
         with:
-          node-version: 14.x
-          cache: "npm"
-
-      - run: npm ci
-      - run: npm run build
-      - run: npm run deploy
+          folder: build
