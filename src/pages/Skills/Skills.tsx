@@ -16,7 +16,8 @@ const Skills: React.FC = () => {
   let technology = [
     { name: "Typescript", icon: ImgSrc.typescript },
     { name: "Javascript", icon: ImgSrc.javascript },
-    { name: "Golang", icon: ImgSrc.golang },
+    { name: "Go", icon: ImgSrc.golang },
+    { name: "Rust", icon: ImgSrc.rust },
     { name: "Next", icon: ImgSrc.nextjs },
     { name: "React", icon: ImgSrc.react },
     { name: "Redux", icon: ImgSrc.redux },
@@ -35,6 +36,7 @@ const Skills: React.FC = () => {
     { name: "RemixIDE", icon: ImgSrc.remix },
     { name: "Solana", icon: ImgSrc.solana },
     { name: "MongoDB", icon: ImgSrc.mongodb },
+    { name: "PostgreSQL", icon: ImgSrc.postgresql },
     { name: "MySQL", icon: ImgSrc.mysql },
     { name: "Redis", icon: ImgSrc.redis },
     { name: "Figma", icon: ImgSrc.figma },

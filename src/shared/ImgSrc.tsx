@@ -13,6 +13,8 @@ import nodejs from "./../assets/technology/nodejs.png";
 import react from "./../assets/technology/react.png";
 import redis from "./../assets/technology/redis.png";
 import redux from "./../assets/technology/redux.png";
+import rust from "./../assets/technology/rust.png";
+import postgresql from "./../assets/technology/postgresql.png";
 import solidity from "./../assets/technology/solidity.png";
 import typescript from "./../assets/technology/typescript.png";
 import solana from "./../assets/technology/solana.png";
@@ -51,5 +53,7 @@ export {
   protobuf,
   githubactions,
   gin,
+  rust,
   nextjs,
+  postgresql,
 };

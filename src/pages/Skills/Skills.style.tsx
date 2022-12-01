@@ -49,7 +49,8 @@ export const TechElementTitle = styled.label`
 export const TechElementImgContainer = styled.div`
   width: 4rem;
   height: 4rem;
-  display: inline-block;
+  display: flex;
+  align-items: center;
 `;
 
 export const TechElementImg = styled.img`

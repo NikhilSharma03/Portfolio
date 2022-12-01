@@ -13,11 +13,7 @@ import {
   HeroMainRight,
 } from "./Hero.style";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faLaptop,
-  faRocket,
-  faHandPeace,
-} from "@fortawesome/free-solid-svg-icons";
+import { faLaptop, faHandPeace } from "@fortawesome/free-solid-svg-icons";
 
 const Hero: React.FC = () => {
   return (
@@ -25,13 +21,12 @@ const Hero: React.FC = () => {
       <HeroMain>
         <HeroMainLeft>
           <HeroContentHead>
-            Hi There! <FontAwesomeIcon icon={faHandPeace} color="#fff" /> <br />{" "}
-            I am <HeroContentHeadSub> Nikhil</HeroContentHeadSub>
+            Hello There! <FontAwesomeIcon icon={faHandPeace} color="#fff" />{" "}
+            <br /> I am <HeroContentHeadSub> Nikhil</HeroContentHeadSub>
           </HeroContentHead>
           <HeroContentPara>
             Software Engineer{" "}
-            <FontAwesomeIcon icon={faLaptop} color="#34d399" /> || Open Source
-            Enthusiast <FontAwesomeIcon icon={faRocket} color="#34d399" />
+            <FontAwesomeIcon icon={faLaptop} color="#34d399" />
           </HeroContentPara>
           <HeroButton
             href={require("../../assets/resume.pdf")}

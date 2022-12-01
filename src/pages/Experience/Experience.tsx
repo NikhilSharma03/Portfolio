@@ -16,8 +16,16 @@ import SectionHead from "../../components/SectionHead/SectionHead";
 const Skills: React.FC = () => {
   const experienceData = [
     {
+      name: "VELVET.CAPITAL",
+      title: "Software Engineer Intern",
+      timeline: "Nov 2022 - Present",
+      details: [
+        "Implemented UI features, Portfolio Performance Graph UI, and improved web responsiveness for Velvet.Capital web app using Reactjs, Recharts, Nodejs, Express, MongoDB",
+      ],
+    },
+    {
       name: "SOLANA LABS",
-      title: "Software Engineer Intern (MLH Fellowship)",
+      title: "Software Engineer Fellow (MLH Fellowship)",
       timeline: "Jun 2022 - Aug 2022",
       details: [
         "Designed and Developed UI features for NFTCraft project using Nextjs, Redux, Canvas, styled-components",
@@ -27,7 +35,7 @@ const Skills: React.FC = () => {
     },
     {
       name: "LAYER5",
-      title: " Software Engineer Intern (The Linux Foundation Mentorship)",
+      title: " LFX Mentee (The Linux Foundation Mentorship)",
       timeline: "Mar 2022 - May 2022",
       details: [
         "Implemented UI features for Meshery extension - Meshmap using ReactJS, Cytoscape, Material UI",
