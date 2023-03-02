@@ -16,11 +16,22 @@ import SectionHead from "../../components/SectionHead/SectionHead";
 const Skills: React.FC = () => {
   const experienceData = [
     {
+      name: "HENNGE",
+      title: "Software Engineer Intern",
+      timeline: "Feb 2023 - Mar 2023",
+      details: [
+        "Implemented E2E tests for fzero application using TypeScript, Cucumberjs, Playwright",
+        "Implemented Continuous Integration Pipeline for tests using CircleCI",
+      ],
+    },
+    {
       name: "VELVET.CAPITAL",
       title: "Software Engineer Intern",
-      timeline: "Nov 2022 - Present",
+      timeline: "Nov 2022 - Jan 2023",
       details: [
-        "Implemented UI features, Portfolio Performance Graph UI, and improved web responsiveness for Velvet.Capital web app using Reactjs, Recharts, Nodejs, Express, MongoDB",
+        "Designed and Developed APIs for Velvet.Capital backend using Nodejs, Express, Docker, Moralis, MongoDB",
+        "Implemented Continuous Integration/Deployment Pipeline using Github Actions",
+        "Implemented UI features, Portfolio Performance Graph UI, and improved web responsiveness for Velvet.Capital web app using Reactjs, Redux, Recharts",
       ],
     },
     {
