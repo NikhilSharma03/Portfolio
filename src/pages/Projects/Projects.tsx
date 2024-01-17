@@ -19,49 +19,28 @@ import SectionHead from "../../components/SectionHead/SectionHead";
 
 const projectData = [
   {
-    name: "Devmind",
+    name: "Devmind 🌟",
     description:
-      "DevMind 🌟 is a platform for developers 💻 to share their ideas and thoughts with developers all over the world 🚀",
-    technology: ["React", "Redux", "Nodejs", "Express", "MongoDB", "Docker"],
+      "A social media platform for developers to share their ideas, thoughts, and images with other developers. Implemented many features such as CRUD posts, likes, comments, image upload, user authentication",
+    technology: ["TypeScript", "React", "Redux", "Nodejs", "Express", "MongoDB", "Docker", "Github Actions"],
     github: "https://github.com/NikhilSharma03/DevMind",
-    deploy: "https://devmind-app.web.app/",
+    deploy: "https://devmind.w3spaces.com/",
   },
   {
-    name: "Okane",
+    name: "Okane 🌟",
     description:
-      "Okane is a CLI 💻 application build with Cobra Go🚀 to help manage your expenses 💵",
-    technology: ["Go", "gRPC", "Protocol Buffers", "Cobra", "Redis", "Docker"],
+      "A CLI application to help in managing expenses. Implemented many features such as user authentication, credit and debit money, transaction history.",
+    technology: ["Go", "gRPC", "gRPC Gateway","Protocol Buffers", "Cobra", "Redis", "Docker", "Github Actions"],
     github: "https://github.com/NikhilSharma03/Okane",
   },
   {
-    name: "AEIOU",
+    name: "AEIOU 🌟",
     description:
-      "AEIOU 🌟 is a Crowdfunding Platform Powered by Ethereum Blockchain 🚀",
-    technology: ["React", "Redux", "Web3", "Solidity", "Mocha"],
+      "A crowdfunding platform powered by Ethereum blockchain. Implemented many features such as the ability to connect Metamask Wallet, create campaign, contribute to campaigns, create and approve transaction requests.",
+    technology: ["TypeScript", "React", "Redux", "Web3", "Solidity", "Mocha", "Github Actions"],
     github: "https://github.com/NikhilSharma03/AEIOU",
-    deploy: "https://aeiou-pi.vercel.app/",
-  },
-  {
-    name: "Kaiwa",
-    description:
-      "Kaiwa is a chat application 💻 implemented with grpc-web-go-react 🚀",
-    technology: ["React", "Redux", "Golang", "gRPC", "MongoDB"],
-    github: "https://github.com/NikhilSharma03/Kaiwa",
-  },
-  {
-    name: "Noteman",
-    description:
-      "Noteman 📓 is an online web 💻 application to store school/rough notes on the web to review them later.",
-    technology: ["React", "Redux", "Firebase"],
-    github: "https://github.com/NikhilSharma03/NoteMan",
-    deploy: "https://notemanapp.web.app/",
-  },
-  {
-    name: "Food Ninja",
-    description: "Food 🍕 Ninja is an online food ordering website 💻 clone.",
-    technology: ["React", "Redux", "Framer", "Firebase"],
-    github: "https://github.com/NikhilSharma03/Food-Ninja",
-  },
+    deploy: "https://nikhilsharma03.github.io/AEIOU/",
+  }
 ];
 
 const Projects: React.FC = () => {

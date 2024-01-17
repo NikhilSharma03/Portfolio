@@ -110,5 +110,4 @@ export const AboutContainerImgContainer = styled.div`
 
 export const AboutContainerImg = styled.img`
   width: 100%;
-  transform: rotate(10deg);
 `;

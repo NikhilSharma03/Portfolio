@@ -26,15 +26,19 @@ const About: React.FC = () => {
         <AboutContainer>
           <AboutContainerLeft>
             <AboutContainerPara>
-              I'm a graduate student from India. I have passion for Development
-              💻 and I love exploring new technologies and use them to build
-              cool and innovative projects 🛠️. I am also an Open Source
-              Enthusiast ❤️ and have experience of working on a variety of
-              projects. <br />
-              <br /> I enjoy working on projects in a team full of excited
-              people who want to learn and grow like me. In order to keep
-              learning new things, I am always looking for projects and
-              opportunities that will help me learn and upskill better.
+              Hi there! 👋 I'm Nikhil.
+              <br />
+              <br />
+              I'm a software developer 💻 with one year of experience, currently working at Velvet Capital as a Software Developer. I have experience working in Frontend, Backend, and Blockchain.
+              <br />
+              <br />
+              During my Software Development career, I have worked with multiple programming languages and 🛠️ technologies such as TypeScript, Go, Node.js, Next.js, React, GitHub Actions, and AWS.
+              <br />
+              <br />
+              During the last semester of college, I participated in The Linux Foundation Mentorship (LFX) and MLH Fellowship open source programs where I contributed to ❤️  open-source projects: Meshery and Hydra Wallet.
+              <br />
+              <br />
+              I'm excited to connect with fellow tech enthusiasts who share the same zeal.
             </AboutContainerPara>
             <AboutContainerSocialContainer>
               <AboutContainerSocialBox
@@ -44,7 +48,7 @@ const About: React.FC = () => {
                 <GithubSvg fill="#34d399d1" />
               </AboutContainerSocialBox>
               <AboutContainerSocialBox
-                href="https://www.linkedin.com/in/nikhil-sharma-7538961b2/"
+                href="https://www.linkedin.com/in/nikhilsharma032000/"
                 target="_blank"
               >
                 <LinkedInSvg fill="#34d399d1" />

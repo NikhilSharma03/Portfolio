@@ -25,7 +25,7 @@ const Hero: React.FC = () => {
             <br /> I am <HeroContentHeadSub> Nikhil</HeroContentHeadSub>
           </HeroContentHead>
           <HeroContentPara>
-            Software Engineer{" "}
+            Software Developer{" "}
             <FontAwesomeIcon icon={faLaptop} color="#34d399" />
           </HeroContentPara>
           <HeroButton
