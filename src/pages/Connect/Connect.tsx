@@ -35,7 +35,7 @@ const Connect: React.FC = () => {
               <GithubSvg fill="#34d399d1" />
             </ConnectSocialBox>
             <ConnectSocialBox
-              href="https://www.linkedin.com/in/nikhil-sharma-7538961b2/"
+              href="https://www.linkedin.com/in/nikhilsharma032000/"
               target="_blank"
             >
               <LinkedInSvg fill="#34d399d1" />
