@@ -29,14 +29,14 @@ const projectData = [
   {
     name: "Okane 🌟",
     description:
-      "A CLI application to help in managing expenses. Implemented many features such as user authentication, credit and debit money, transaction history.",
+      "A CLI tool designed to simplify expense management for users. Implemented many features such as user authentication, CRUD expenses, and tracking transaction history.",
     technology: ["Go", "gRPC", "gRPC Gateway","Protocol Buffers", "Cobra", "Redis", "Docker", "Github Actions"],
     github: "https://github.com/NikhilSharma03/Okane",
   },
   {
     name: "AEIOU 🌟",
     description:
-      "A crowdfunding platform powered by Ethereum blockchain. Implemented many features such as the ability to connect Metamask Wallet, create campaign, contribute to campaigns, create and approve transaction requests.",
+      "A crowdfunding platform powered by Ethereum blockchain. Implemented many features such as the ability to connect Metamask Wallet, create campaigns, contribute to campaigns, and create and approve transaction requests.",
     technology: ["TypeScript", "React", "Redux", "Web3", "Solidity", "Mocha", "Github Actions"],
     github: "https://github.com/NikhilSharma03/AEIOU",
     deploy: "https://nikhilsharma03.github.io/AEIOU/",
